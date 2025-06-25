@@ -10,7 +10,7 @@ class Game {
   String title;
   GameImage coverImage;
   List<GameImage> images;
-  String description;
+String description;
   String studio;
 
   Game(this.title, this.coverImage, this.description, this.studio)  : images = [] ?? [];
